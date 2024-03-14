@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.twentyfourdeveloper.kotlineaseprefs"
+    namespace = "com.rekanesia.example"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.twentyfourdeveloper.kotlineaseprefs"
+        applicationId = "com.rekanesia.example"
         minSdk = 19
         targetSdk = 34
         versionCode = 1

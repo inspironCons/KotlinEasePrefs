@@ -1,4 +1,4 @@
-package twentyfourdeveloper.kotlineaseprefs
+package com.rekanesia.kotlineaseprefs
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -203,13 +203,13 @@ object Prefs{
             return this
         }
 
-        fun setMigration(areMigration:Boolean = false,oldPrefs:String = ""): Builder{
+        fun setMigration(areMigration:Boolean = false,oldPrefs:String = ""): Builder {
             migrate = areMigration
             oldMKey = oldPrefs
             return this
         }
 
-        fun encryptedPref():Builder{
+        fun encryptedPref(): Builder {
             encrypted = true
             return this
         }

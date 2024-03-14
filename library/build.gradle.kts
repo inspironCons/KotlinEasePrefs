@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "twentyfourdeveloper.kotlineaseprefs"
+    namespace = "com.rekanesia.kotlineaseprefs"
     compileSdk = 34
 
     defaultConfig {

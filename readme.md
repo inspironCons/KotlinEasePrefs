@@ -8,11 +8,11 @@ Add the following dependency to your `build.gradle` file:
 
 **groovy**
 ```groovy
-implementation 'twentyfourdeveloper:kotlineaseprefs:1.0.0'
+implementation 'com.gitlab.rekanesia:kotlineaseprefs:1.0.0'
 ```
 **Kotlin**
 ```kotlin-
-implementation('twentyfourdeveloper:kotlineaseprefs:1.0.0')
+implementation('com.gitlab.rekanesia:kotlineaseprefs:1.0.0')
 ```
 ## Usage
 

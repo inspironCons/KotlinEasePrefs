@@ -1,4 +1,4 @@
-package com.twentyfourdeveloper.kotlineaseprefs
+package com.rekanesia
 
 import org.junit.Test
 
