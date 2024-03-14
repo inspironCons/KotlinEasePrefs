@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "KotlinEasePrefs"
 include(":example")
-include(":library")
+include(":kotlin-ease-prefs")
