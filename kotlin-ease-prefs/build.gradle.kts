@@ -1,7 +1,6 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
-    id("maven-publish")
 }
 
 android {
@@ -23,35 +22,19 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     java{
         toolchain{
-            languageVersion = JavaLanguageVersion.of(17)
+            languageVersion = JavaLanguageVersion.of(8)
         }
     }
     kotlinOptions {
-        jvmTarget = "17"
+        jvmTarget = "1.8"
     }
 }
 
 dependencies {
     implementation("androidx.security:security-crypto:1.1.0-alpha06")
-}
-
-
-configure<PublishingExtension> {
-    publications.create<MavenPublication>("library") {
-        groupId = "com.rekanesia"
-        artifactId = "kotlin-ease-prefs"
-        version = "1.0.0"
-        pom{
-            description = "Introducing KotlinEasePrefs: Your hassle-free solution for configuring preferences in Kotlin projects!"
-        }
-
-    }
-    repositories {
-        mavenLocal()
-    }
 }
