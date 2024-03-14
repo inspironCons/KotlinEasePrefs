@@ -42,7 +42,7 @@ dependencies {
 
 
 configure<PublishingExtension> {
-    publications.create<MavenPublication>("kotlin-ease-prefs") {
+    publications.create<MavenPublication>("library") {
         groupId = "com.rekanesia"
         artifactId = "kotlin-ease-prefs"
         version = "1.0.0"
