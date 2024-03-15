@@ -4,6 +4,12 @@ plugins {
     id("maven-publish")
 }
 
+group = "com.rekanesia"
+
+tasks.withType<AbstractArchiveTask> {
+    archiveBaseName.set("kotlin-ease-prefs")
+}
+
 android {
     namespace = "com.rekanesia.kotlineaseprefs"
     compileSdk = 34
